@@ -1,0 +1,15 @@
+<html t:type="layout" title="Welcome | newapp"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd"
+      xmlns:p="tapestry:parameter" xmlns="http://www.w3.org/1999/html">
+<body>
+<div class="a">
+        <h3>Welcome User </h3>
+
+        <t:pagelink page="AddEmployee" >Add Employee Details </t:pagelink>
+        <p/>
+        <t:pagelink page="Grid" >Employee Details</t:pagelink>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<html t:type="layout" title="Index | newapp"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+
+<!-- Most of the page content, including <head>, <body>, etc. tags, comes from Layout.tml -->
+
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="a">
+    <div class="wpforms-form">
+<t:form t:id="form">
+    <div class="form-group">
+        <label>id:</label>
+        <t:textfield t:id="id" value="id" validate="required" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="age">age:</label>
+        <t:textfield t:id="age" value="age" validate="required" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <t:textfield t:id="name" value="name" validate="required" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Address">Address:</label>
+        <t:textfield t:id="address" value="address" validate="required" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="Username">Username:</label>
+        <t:textfield t:id="username" value="username" validate="required" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="password">password:</label>
+        <t:textfield t:id="password" value="password" validate="required" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <t:submit t:id="submitButton" value="Submit" t:event="success"/>
+    </div>
+    <t:pagelink page="Grid" >Employee Details</t:pagelink><br/>
+
+</t:form>
+    </div>
+</div>
+
+</html>

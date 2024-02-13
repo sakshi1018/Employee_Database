@@ -1,0 +1,13 @@
+.a{
+margin: 0;
+padding: 0;
+
+display:flex;
+justify-content: left;
+align-items: center;
+min-height:70vh;
+
+}
+.welcome-message {
+        margin-bottom: 200px; /* Adjust the margin to control the spacing */
+    }

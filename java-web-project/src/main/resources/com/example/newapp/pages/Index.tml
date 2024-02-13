@@ -1,0 +1,34 @@
+<html t:type="layout" title="Index | newapp"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+
+<!-- Most of the page content, including <head>, <body>, etc. tags, comes from Layout.tml -->
+
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="a">
+
+    <div class="wpforms-form">
+    <t:form t:id="login" >
+        <div class="form-group">
+            <div class="bold-label">
+                <t:label for="email">Username</t:label>
+            </div>
+            <t:textfield t:id="email" class="form-control" validate="required" placeholder="Email address"/>
+
+        </div>
+        <div class="form-group">
+            <div class="bold-label">
+                <t:label for="password">Password</t:label>
+            </div>
+            <t:passwordfield t:id="password" class="form-control" validate="required" placeholder="Password"/>
+        </div>
+
+        <div class="form-group">
+            <t:submit class="btn btn-primary btn-large" value="submit" />
+        </div>
+
+
+    </t:form>
+    </div>
+
+</div>
+</html>
